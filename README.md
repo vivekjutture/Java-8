@@ -161,4 +161,6 @@ This project under the [**MIT License**](LICENSE), allowing free use, modificati
 This repository is designed as a **complete Java 8 learning reference**, not just isolated examples.  
 Mastering these concepts will make Streams, modern Java frameworks, and enterprise codebases much easier to understand.
 
+---
+
 Happy Coding ☕🔥
