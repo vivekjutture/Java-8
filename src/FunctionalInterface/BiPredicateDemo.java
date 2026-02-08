@@ -1,3 +1,5 @@
+package FunctionalInterface;
+
 import java.util.function.BiPredicate;
 
 /**

@@ -1,3 +1,5 @@
+package MethodReference;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -19,20 +21,8 @@ public class MethodReferenceDemo {
 
         List<String> speakingLanguages = Arrays.asList("English", "Spanish", "French", "German");
         //Constructor Reference
-        List<Languages> languagesSpoken = speakingLanguages.stream().map(Languages::new).collect(Collectors.toList());
+        List<SpeakingLanguages> languagesSpoken = speakingLanguages.stream().map(SpeakingLanguages::new).collect(Collectors.toList());
         languagesSpoken.forEach(language -> System.out.println(language.toString()));
     }
 }
 
-class Languages {
-    String language;
-
-    Languages(String language) {
-        this.language = language;
-    }
-
-    @Override
-    public String toString() {
-        return language;
-    }
-}

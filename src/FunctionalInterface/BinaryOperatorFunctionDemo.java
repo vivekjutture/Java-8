@@ -1,3 +1,5 @@
+package FunctionalInterface;
+
 import java.util.Comparator;
 import java.util.function.BinaryOperator;
 

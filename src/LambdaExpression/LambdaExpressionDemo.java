@@ -1,3 +1,7 @@
+package LambdaExpression;
+
+import FunctionalInterface.MathOperation;
+
 import java.util.function.Predicate;
 
 /**
@@ -19,10 +23,10 @@ public class LambdaExpressionDemo {
 
         // with Lambda Expression
         Thread thread2 = new Thread(() ->
-                System.out.println("MyThread is running")
+                System.out.println("LambdaExpression.MyThread is running")
         );
         thread2.start();
-        
+
         Predicate<Integer> isEven = x -> x % 2 == 0;
         System.out.println(isEven.test(5));
 
@@ -40,12 +44,3 @@ public class LambdaExpressionDemo {
     }
 }
 
-/**
- * Custom Thread Class
- */
-class MyThread implements Runnable {
-    @Override
-    public void run() {
-        System.out.println("MyThread is running");
-    }
-}
