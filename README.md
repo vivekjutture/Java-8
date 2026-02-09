@@ -60,7 +60,7 @@ This repository intentionally includes both:
 The repository includes dedicated demo classes for the functional interfaces that Streams internally depend on:
 
 - Predicate:  
-  Used in stream filtering operations.
+  Used in Stream filtering operations.
 
 - Consumer:  
   Used in forEach and terminal operations.
@@ -94,7 +94,7 @@ These are especially useful when working with Map streams and complex transforma
 🔗 Combined Functional Programming Concepts
 
 The repository also demonstrates how multiple functional interfaces work together to form pipelines similar to real
-Stream API usage, helping bridge the gap between theory and practical stream processing.
+Stream API usage, helping bridge the gap between theory and practical Stream processing.
 
 ----------------------------------------------------------------
 
