@@ -1,15 +1,17 @@
 package Stream;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @author VIVEK
- * short circuit methods are those methods who stopsprocessing when they met the condition
- * eg: anyMatch, allMatch, noneMatch, findFirst, findAny *
+ * short circuit methods are those methods who stops processing when they met the condition
+ * eg: anyMatch, allMatch, noneMatch, findFirst, findAny
  */
 
 public class TerminalOperations {
@@ -43,6 +45,20 @@ public class TerminalOperations {
         System.out.println(list.stream().findFirst().orElse(null));
         System.out.println(list.stream().findAny().orElse(null));
 
+        // 7. toArray
+        Object[] arr = Stream.of(1, 2, 3).toArray();
+
+        // 8. min/max
+        System.out.println("Max : " + Stream.of(7, 8, 96, 2, 3, 44, 58).max(Comparator.naturalOrder()).orElse(null));
+        System.out.println("Min : " + Stream.of(7, 8, 96, 2, 3, 44, 58).min((val1, val2) -> val1 - val2).orElse(null));
+
+        //9. forEachOrdered
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        System.out.println("Using forEach with parallel stream");
+        numbers.parallelStream().forEach(System.out::println);
+        System.out.println("Using forEachOrdered with parallel stream");
+        numbers.parallelStream().forEachOrdered(System.out::println);
+
 
         //Practice example
         List<String> counties = Arrays.asList("India", "Japan", "France", "Germany", "United Kingdom", "United States");
@@ -56,5 +72,11 @@ public class TerminalOperations {
         String sentence = "Java is a robust programming language";
         IntStream sentenceStream = sentence.chars();
         System.out.println("Occurrences of 'a' : " + sentenceStream.filter(x -> x == 'a').count());
+
+        // Example
+        // Streams cannot be reused after a terminal operation has been called that means it's consumed
+        Stream<String> stream = counties.stream();
+        stream.forEach(System.out::println);
+        // List<String> list1 = stream.map(String::toUpperCase).toList(); // exception
     }
 }
