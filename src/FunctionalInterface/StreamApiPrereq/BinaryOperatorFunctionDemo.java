@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package FunctionalInterface.StreamApiPrereq;
 
 import java.util.Comparator;
 import java.util.function.BinaryOperator;

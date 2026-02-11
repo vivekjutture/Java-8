@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package FunctionalInterface.StreamApiPrereq;
 
 import java.util.function.BiFunction;
 

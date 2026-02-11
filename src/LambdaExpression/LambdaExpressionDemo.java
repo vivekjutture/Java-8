@@ -1,6 +1,6 @@
 package LambdaExpression;
 
-import FunctionalInterface.MathOperation;
+import FunctionalInterface.StreamApiPrereq.MathOperation;
 
 import java.util.function.Predicate;
 

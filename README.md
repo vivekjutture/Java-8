@@ -9,7 +9,7 @@ that are still foundational in today’s Java ecosystem.
 
 ----------------------------------------------------------------
 
-🎯 Purpose of This Repository
+**🎯 Purpose of This Repository**
 
 The purpose of this repository is to:
 
@@ -33,9 +33,9 @@ This repository intentionally includes both:
 
 ----------------------------------------------------------------
 
-✨ Java 8 Features Covered
+**✨ Java 8 Features Covered**
 
-1. Lambda Expressions :
+1. Lambda Expressions [Click here](src/LambdaExpression):
    Write concise and readable code using functional-style syntax.
 
 2. Functional Interfaces:  

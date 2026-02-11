@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package FunctionalInterface.StreamApiPrereq;
 
 /**
  * @author VIVEK
