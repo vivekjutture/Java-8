@@ -36,21 +36,27 @@ This repository intentionally includes both:
 **✨ Java 8 Features Covered**
 
 1. Lambda Expressions [Click here](src/LambdaExpression):
+
    Write concise and readable code using functional-style syntax.
 
-2. Functional Interfaces:  
+2. Functional Interfaces [Click here](src/FunctionalInterface):
+
    Interfaces with a single abstract method that work seamlessly with lambda expressions.
 
-3. Stream API  
+3. Stream API [Click here](src/Stream):
+
    Perform functional operations on collections using filter, map, forEach, reduce, and more.
 
-4. Default and Static Methods in Interfaces  
+4. Default and Static Methods in Interfaces [Click here](src/FunctionalInterface/CustomInterface):
+
    Add behavior directly inside interfaces while maintaining backward compatibility.
 
-5. Optional Class  
+5. Optional Class [Click here](src/Optional):
+
    Handle null values safely and reduce the risk of NullPointerException.
 
-6. Date and Time API  
+6. Date and Time API [Click here](src/DateTime):
+
    Use modern, immutable, and thread-safe classes for date and time handling.
 
 ----------------------------------------------------------------
@@ -98,7 +104,7 @@ Stream API usage, helping bridge the gap between theory and practical Stream pro
 
 ----------------------------------------------------------------
 
-📌 Who Is This For?
+**📌 Who Is This For?**
 
 - Students learning Java
 - Developers upgrading from older Java versions
@@ -107,7 +113,7 @@ Stream API usage, helping bridge the gap between theory and practical Stream pro
 
 ---
 
-▶️ How to Use This Repository
+**▶️ How to Use This Repository**
 
 1. Clone the repository
 
@@ -125,7 +131,7 @@ Stream API usage, helping bridge the gap between theory and practical Stream pro
 
 ----------------------------------------------------------------
 
-🌟 Why This Repository Matters
+**🌟 Why This Repository Matters**
 
 Many developers try to learn Stream API directly and struggle.  
 This repository solves that problem by teaching:
@@ -137,7 +143,7 @@ This repository solves that problem by teaching:
 
 ----------------------------------------------------------------
 
-🤝 Contribution Guidelines
+**🤝 Contribution Guidelines**
 
 Contributions are welcome and encouraged.
 
@@ -150,17 +156,17 @@ The goal is to keep this repository evolving as a high-quality Java 8 learning r
 
 ---
 
-📜 License
+**📜 License**
 
 This project under the [**MIT License**](LICENSE), allowing free use, modification, and distribution.
 
 ---
 
-🙌 Final Note
+**🙌 Final Note**
 
 This repository is designed as a **complete Java 8 learning reference**, not just isolated examples.  
 Mastering these concepts will make Streams, modern Java frameworks, and enterprise codebases much easier to understand.
 
 ---
 
-Happy Coding ☕🔥
+**Happy Coding ☕🔥**
