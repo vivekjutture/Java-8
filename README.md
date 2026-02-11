@@ -35,27 +35,27 @@ This repository intentionally includes both:
 
 **✨ Java 8 Features Covered**
 
-1. Lambda Expressions [Click here](src/LambdaExpression):
+1. Lambda Expressions [Click here](src/LambdaExpression) :
 
    Write concise and readable code using functional-style syntax.
 
-2. Functional Interfaces [Click here](src/FunctionalInterface):
+2. Functional Interfaces [Click here](src/FunctionalInterface) :
 
    Interfaces with a single abstract method that work seamlessly with lambda expressions.
 
-3. Stream API [Click here](src/Stream):
+3. Stream API [Click here](src/Stream) :
 
    Perform functional operations on collections using filter, map, forEach, reduce, and more.
 
-4. Default and Static Methods in Interfaces [Click here](src/FunctionalInterface/CustomInterface):
+4. Default and Static Methods in Interfaces [Click here](src/FunctionalInterface/CustomInterface) :
 
    Add behavior directly inside interfaces while maintaining backward compatibility.
 
-5. Optional Class [Click here](src/Optional):
+5. Optional Class [Click here](src/Optional) :
 
    Handle null values safely and reduce the risk of NullPointerException.
 
-6. Date and Time API [Click here](src/DateTime):
+6. Date and Time API [Click here](src/DateTime) :
 
    Use modern, immutable, and thread-safe classes for date and time handling.
 
