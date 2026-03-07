@@ -1,6 +1,6 @@
-# 🚀 Java 8 – Complete Guide to Core Features & Stream API Foundations
+# 🚀 Java 8 Mastery – Complete Guide to Core Features & Stream API Foundations
 
-Welcome to the Java 8 Repository 👋  
+Welcome to the Java 8 Mastery Repository 👋  
 This repository is a comprehensive learning project that covers **all major Java 8 features**, with special emphasis on
 the **functional programming concepts that are required to understand and use the Stream API effectively**.
 
