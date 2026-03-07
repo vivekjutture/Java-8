@@ -118,7 +118,7 @@ Stream API usage, helping bridge the gap between theory and practical Stream pro
 1. Clone the repository
 
     ```bash
-   git clone https://github.com/vivekjutture/Java-8.git
+   git clone https://github.com/vivekjutture/Java-8-Mastery.git
     ```
 2. Open the project in any Java IDE  
    IntelliJ IDEA / Eclipse / VS Code
